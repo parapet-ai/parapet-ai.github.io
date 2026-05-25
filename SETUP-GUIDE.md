@@ -223,3 +223,8 @@ Set both to 301 redirect → `parapetai.dev`.
 - [ ] Phase 5: GitHub Pages switched to `/docs` folder
 - [ ] Phase 6: Backup domains registered
 - [ ] Phase 7: Social handles reserved
+
+### Phase 6 Status
+- [ ] parapetai.io registered
+- [ ] ferrokeep.dev registered
+- [ ] Redirect DNS configured for both
