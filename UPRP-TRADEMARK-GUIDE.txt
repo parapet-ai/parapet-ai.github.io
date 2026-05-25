@@ -1,0 +1,151 @@
+================================================================================
+  PARAPET AI — POLISH TRADEMARK FILING GUIDE (UPRP)
+  Przewodnik po zgloszeniu znaku towarowego PARAPET AI w UPRP
+================================================================================
+
+Data: 2026-05-25
+Znak / Mark: PARAPET AI
+Typ / Type: Znak slowny / Word mark
+Wlasciciel / Owner: Andrzej Dobosz
+
+================================================================================
+  KROK 1 / STEP 1 — Portal UPRP
+================================================================================
+
+Wejdz na / Go to:
+https://ewyszukiwarka.pue.uprp.gov.pl
+
+Wybierz / Select: "Zgloszenie znaku towarowego" (Trademark application)
+
+================================================================================
+  KROK 2 / STEP 2 — Dane zglaszajacego / Applicant Details
+================================================================================
+
+Imie i nazwisko / Name:     Andrzej Dobosz
+Ulica / Address:            Calle Mira el Sol 11, Bajo B
+Kod pocztowy / Postal:      28005
+Miasto / City:              Madrid
+Kraj / Country:             Hiszpania / Spain (ES)
+Email:                      awdobosz@proton.me
+Telefon / Phone:            +34 624 85 34 30
+
+================================================================================
+  KROK 3 / STEP 3 — Znak / The Mark
+================================================================================
+
+Typ znaku / Mark type:      Znak slowny / Word mark
+Tekst znaku / Mark text:    PARAPET AI
+
+================================================================================
+  KROK 4 / STEP 4 — Klasyfikacja nicejska / Nice Classification
+================================================================================
+
+--- KLASA 9 / CLASS 9 ---
+
+PL:
+Pobieralne oprogramowanie komputerowe do lokalnego wykonywania modeli
+sztucznej inteligencji; pobieralne oprogramowanie dla kontenerowych
+asystentow sztucznej inteligencji; pobieralne zabezpieczone oprogramowanie
+agenta AI do interakcji z modelami jezykowymi w trybie offline; pobieralne
+oprogramowanie komputerowe z filtrowanym ruchem wychodzacym dla komunikacji
+AI; pobieralne oprogramowanie komputerowe do prywatnej, offline'owej
+sztucznej inteligencji.
+
+EN:
+Downloadable computer software for local artificial intelligence model
+execution; downloadable software for container-based artificial intelligence
+assistants; downloadable security-hardened AI agent software for offline
+large language model interaction; downloadable computer software featuring
+egress-filtered AI communication; downloadable computer software for private,
+offline artificial intelligence.
+
+--- KLASA 42 / CLASS 42 ---
+
+PL:
+Oprogramowanie jako usluga (SaaS) dla lokalnej sztucznej inteligencji;
+doradztwo w zakresie bezpieczenstwa komputerowego; projektowanie i rozwoj
+oprogramowania komputerowego dla bezpieczenstwa AI; udostepnianie
+tymczasowego, niepobieralnego, zabezpieczonego oprogramowania AI; analiza
+zagrozen bezpieczenstwa komputerowego i ocena ryzyka dla systemow AI.
+
+EN:
+Software as a Service (SaaS) for local artificial intelligence; computer
+security consultancy; design and development of computer software for AI
+security; providing temporary use of non-downloadable security-hardened AI
+software; computer security threat analysis and risk assessment for AI
+systems.
+
+================================================================================
+  KROK 5 / STEP 5 — Oplaty / Fees
+================================================================================
+
+                      |  PLN  |  ~EUR
+----------------------|-------|-------
+Zgloszenie klasa 9    |  400  |   92   (platne teraz / due now)
+Dodatkowa klasa 42    |  100  |   23   (platne teraz / due now)
+Oplata publikacyjna   |   90  |   21   (platne teraz / due now)
+----------------------|-------|-------
+Razem teraz / Now:    |  590  |  136
+
+Ochrona 10-letnia x 2 |  800  |  184   (po decyzji / after approval)
+----------------------|-------|-------
+LACZNIE / TOTAL:      | 1390  |  320
+
+================================================================================
+  KROK 6 / STEP 6 — Co potem? / What Next?
+================================================================================
+
+1. UPRP bada formalnie (~1-2 miesiace) / Formal examination (~1-2 months)
+2. Publikacja w Biuletynie UPRP / Publication in UPRP Bulletin
+3. 3-miesieczny okres sprzeciwu / 3-month opposition period
+4. Decyzja o rejestracji (~4-6 miesiecy) / Registration decision (~4-6 months)
+5. Oplata za ochrone 10-letnia / 10-year protection fee
+6. Swiadectwo rejestracji / Registration certificate
+
+================================================================================
+  KROK 7 / STEP 7 — Data pierwszenstwa / Priority Date
+================================================================================
+
+Data zgloszenia w UPRP staje sie data pierwszenstwa Konwencji Paryskiej.
+W ciagu 6 miesiecy mozesz zglosic ten sam znak w:
+
+- EUIPO (UE — 27 panstw): ~850 EUR
+- USPTO (USA): ~250-350 USD
+- UK IPO (Wielka Brytania): ~200-300 GBP
+
+...zachowujac dzisiejsza date pierwszenstwa i blokujac wszystkich,
+ktorzy zglosza po Tobie.
+
+Your UPRP filing date becomes your Paris Convention priority date.
+Within 6 months you can file the same mark in EUIPO, USPTO, and UK IPO
+claiming today's date — blocking anyone who files after you.
+
+================================================================================
+  NOTATKI / NOTES
+================================================================================
+
+- Zgloszenie elektroniczne jest tansze niz papierowe / E-filing is cheaper
+- Opis towarow i uslug musi byc w jezyku polskim / Goods must be in Polish
+- Ochrona trwa 10 lat od daty zgloszenia / Protection lasts 10 years from filing
+- Mozna przedluzyc na kolejne 10 lat / Renewable for another 10 years
+- Wymog uzywania: znak musi byc uzywany w ciagu 5 lat od rejestracji
+- Use requirement: mark must be used within 5 years of registration
+
+================================================================================
+
+================================================================================
+  STATUS ZGLOSZENIA / FILING STATUS
+================================================================================
+
+Numer zgloszenia / Application #:  Z.603439
+Data zgloszenia / Filing date:     2026-05-25
+Klasy / Classes:                   9, 42
+Kwota / Amount paid:               521 PLN (520 + 1 PLN transaction fee)
+Status:                            Przyjete / Accepted
+
+Termin pierwszenstwa / Priority deadline:
+  EUIPO:  do 25 listopada 2026
+  USPTO:  do 25 listopada 2026
+  UK IPO: do 25 listopada 2026
+
+================================================================================
