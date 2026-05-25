@@ -211,20 +211,24 @@ Set both to 301 redirect → `parapetai.dev`.
 
 ## Checklist
 
-- [ ] Phase 1: Namecheap DNS records added
-- [ ] Phase 1: `host parapetai.dev` resolves to GitHub IPs
-- [ ] Phase 2: `parapet-ai` GitHub org created
-- [ ] Phase 2: Repo transferred to org
-- [ ] Phase 2: DNS CNAME updated to `parapet-ai.github.io`
-- [ ] Phase 3: `https://parapetai.dev` loads landing page
-- [ ] Phase 3: HTTPS enforced in repo settings
-- [ ] Phase 4: UPRP trademark application filed
-- [ ] Phase 5: Airlock code cleaned up and pushed to repo
-- [ ] Phase 5: GitHub Pages switched to `/docs` folder
-- [ ] Phase 6: Backup domains registered
+- [x] Phase 1: Namecheap DNS records added
+- [x] Phase 1: `host parapetai.dev` resolves to GitHub IPs
+- [x] Phase 2: `parapet-ai` GitHub org created
+- [x] Phase 2: Repo transferred to org
+- [x] Phase 2: DNS CNAME updated to `parapet-ai.github.io`
+- [x] Phase 3: `https://parapetai.dev` loads landing page
+- [ ] Phase 3: HTTPS enforced in repo settings *(GitHub cert provisioning — auto)*
+- [x] Phase 4: UPRP trademark filed — **Z.603439** (2026-05-25)
+- [x] Phase 5: MIT edition code imported → `github.com/parapet-ai/parapet`
+- [x] Phase 5: README bilingual, badges, legal docs, regulatory alignment
+- [x] Phase 6: `parapetai.io` registered + redirect ✅
+- [ ] Phase 6: `ferrokeep.dev` registered — DNS redirect pending
 - [ ] Phase 7: Social handles reserved
 
-### Phase 6 Status
-- [ ] parapetai.io registered
-- [ ] ferrokeep.dev registered
-- [ ] Redirect DNS configured for both
+### IP Status
+
+| ID | Type | Priority Date | Status |
+|----|------|---------------|--------|
+| P.455821 | Patent | 2026-05-18 | Pending |
+| Z.603439 | Trademark | 2026-05-25 | Pending |
+| Paris Convention deadline | — | **2026-11-25** | File EUIPO/USPTO by this date |
