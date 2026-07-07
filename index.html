@@ -3,62 +3,149 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Parapet AI — Hardened Local AI</title>
+<title>Parapet AI Edu — Local AI for Education</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
-    font-family: system-ui, -apple-system, sans-serif;
-    background: #0d1117;
-    color: #c9d1d9;
+    font-family: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+    background: #060D17;
+    color: #E8F4F8;
     min-height: 100vh;
-    display: flex; flex-direction: column; align-items: center; justify-content: center;
-    padding: 2rem;
+    line-height: 1.6;
   }
-  main { max-width: 640px; text-align: center; }
-  h1 { font-size: 3rem; font-weight: 700; color: #f0f6fc; margin-bottom: 0.5rem; }
-  .tagline { font-size: 1.25rem; color: #8b949e; margin-bottom: 2rem; }
-  .description { font-size: 1rem; line-height: 1.6; color: #8b949e; margin-bottom: 2.5rem; }
-  .description strong { color: #c9d1d9; }
-  .badge-row { display: flex; gap: 0.75rem; flex-wrap: wrap; justify-content: center; margin-bottom: 3rem; }
+  header {
+    text-align: center; padding: 4rem 2rem 2rem;
+    background: linear-gradient(180deg, #0B1420 0%, #060D17 100%);
+    border-bottom: 1px solid #1A2A3A;
+  }
+  h1 { font-size: 2.8rem; font-weight: 700; color: #00FFFF; letter-spacing: 0.05em; }
+  .tagline { font-size: 1.3rem; color: #6B7B8D; margin-top: 0.5rem; }
+  .badge-row { display: flex; gap: 0.75rem; flex-wrap: wrap; justify-content: center; margin-top: 2rem; }
   .badge {
-    padding: 0.4rem 1rem;
-    border-radius: 2rem;
-    font-size: 0.85rem;
-    font-weight: 500;
-    border: 1px solid #30363d;
-    background: #161b22;
+    padding: 0.35rem 1rem; border-radius: 2rem; font-size: 0.8rem; font-weight: 500;
+    border: 1px solid #1A2A3A; background: #0B1420; color: #6B7B8D;
   }
-  .links { display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center; }
+  .badge.gold { border-color: #FFB800; color: #FFB800; }
+  main { max-width: 800px; margin: 0 auto; padding: 2rem; }
+  section { margin-bottom: 3rem; }
+  h2 { font-size: 1.5rem; color: #FFB800; margin-bottom: 1rem; border-bottom: 1px solid #1A2A3A; padding-bottom: 0.5rem; }
+  p { color: #6B7B8D; margin-bottom: 1rem; }
+  .repo-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 0.75rem; }
+  .repo-card {
+    background: #0B1420; border: 1px solid #1A2A3A; border-radius: 8px; padding: 1rem;
+    text-decoration: none; color: #E8F4F8; transition: border-color 0.2s;
+  }
+  .repo-card:hover { border-color: #00FFFF; }
+  .repo-card h3 { font-size: 0.95rem; color: #00FFFF; margin-bottom: 0.35rem; }
+  .repo-card p { font-size: 0.8rem; color: #6B7B8D; margin: 0; }
+  .innovation { background: #0B1420; border: 1px solid #1A2A3A; border-radius: 10px; padding: 1.5rem; }
+  .innovation p { color: #E8F4F8; }
+  .innovation .metric { color: #00FFFF; font-weight: 700; }
+  footer {
+    text-align: center; padding: 2rem; font-size: 0.8rem; color: #484f58;
+    border-top: 1px solid #1A2A3A; margin-top: 2rem;
+  }
+  footer a { color: #00FFFF; text-decoration: none; }
+  .links { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-top: 1.5rem; }
   .links a {
-    color: #58a6ff; text-decoration: none; font-weight: 500;
-    padding: 0.5rem 1.25rem; border: 1px solid #30363d; border-radius: 0.5rem;
+    color: #00FFFF; text-decoration: none; font-weight: 500;
+    padding: 0.5rem 1.25rem; border: 1px solid #1A2A3A; border-radius: 0.5rem;
     transition: background 0.15s;
   }
-  .links a:hover { background: #1f2937; }
-  footer { margin-top: 4rem; font-size: 0.8rem; color: #484f58; }
+  .links a:hover { background: #0B1420; border-color: #FFB800; }
+  .ip-footer { font-size: 0.75rem; color: #484f58; margin-top: 1rem; }
 </style>
 </head>
 <body>
-  <main>
-    <h1>Parapet AI</h1>
-    <p class="tagline">Your data never leaves the fortress.</p>
-    <p class="description">
-      A <strong>hardened local AI stack</strong> with five-layer egress security.
-      Runs <strong>Ollama</strong> models inside <strong>Docker</strong> containers behind
-      iptables, DNS sinkholes, seccomp profiles, and read-only filesystems.
-      No cloud. No API keys. No telemetry.
-    </p>
+  <header>
+    <h1>PARAPET AI EDU</h1>
+    <p class="tagline">The wall between your data and the cloud. AI grading that never leaves the classroom.</p>
     <div class="badge-row">
-      <span class="badge">100% Local</span>
-      <span class="badge">5-Layer Security</span>
+      <span class="badge gold">Patent P.455821</span>
+      <span class="badge gold">PARAPET AI®</span>
+      <span class="badge">100% Offline</span>
       <span class="badge">MIT / Apache 2.0</span>
-      <span class="badge">Docker + Ollama</span>
+      <span class="badge">SDG 4·9·12·13·16</span>
+      <span class="badge">GDPR / AI Act</span>
     </div>
+  </header>
+  <main>
+    <section>
+      <h2>What We Build</h2>
+      <p>An offline AI grading platform for secondary education. Small language models (1.5B–7B parameters) running entirely on consumer laptops — no cloud, no API keys, no data leakage. 14 exam boards. 20 fine-tuned models. 3 complexity tiers. Teacher dashboard. Student safeguarding. Built for UK schools. Designed for EU sovereignty.</p>
+    </section>
+
+    <section>
+      <h2>Open-Source Repositories</h2>
+      <div class="repo-grid">
+        <a class="repo-card" href="https://github.com/parapet-ai/hqq-3bit-7b-6gb-trainer">
+          <h3>hqq-3bit-7b-6gb-trainer</h3>
+          <p>Train 7B models on consumer 6GB GPUs. Patent-pending method combining HQQ 3-bit + cut cross-entropy.</p>
+        </a>
+        <a class="repo-card" href="https://github.com/parapet-ai/gpu-thermal-guard">
+          <h3>gpu-thermal-guard</h3>
+          <p>Climate-aware dual CPU+GPU thermal protection. Time-of-day thresholds. CO2 tracking per run.</p>
+        </a>
+        <a class="repo-card" href="https://github.com/parapet-ai/edu-safety-module">
+          <h3>edu-safety-module</h3>
+          <p>58 student-specific jailbreak patterns across 9 attack categories. KCSIE 2024 compliant.</p>
+        </a>
+        <a class="repo-card" href="https://github.com/parapet-ai/zero-classroom-server">
+          <h3>zero-classroom-server</h3>
+          <p>Multi-user classroom LLM server. 280 lines of Python stdlib. Zero dependencies. Teacher monitoring.</p>
+        </a>
+        <a class="repo-card" href="https://github.com/parapet-ai/exam-board-prompts">
+          <h3>exam-board-prompts</h3>
+          <p>70+ exam-board ontology: AQA, Edexcel, OCR, Cambridge, IB. Psychology, Computing, Biology.</p>
+        </a>
+        <a class="repo-card" href="https://github.com/parapet-ai/curriculum-llm-pipeline">
+          <h3>curriculum-llm-pipeline</h3>
+          <p>Resumable 20-model MLOps pipeline. VRAM handoff between stages. Full CO2 accounting.</p>
+        </a>
+        <a class="repo-card" href="https://github.com/parapet-ai/edu-llm-security-test">
+          <h3>edu-llm-security-test</h3>
+          <p>50-vector automated red-team framework for educational LLM deployments.</p>
+        </a>
+        <a class="repo-card" href="https://github.com/parapet-ai/local-llm-edu-desktop">
+          <h3>local-llm-edu-desktop</h3>
+          <p>CustomTkinter desktop app. Student/teacher dual-mode. Document RAG. GPU/CPU toggle.</p>
+        </a>
+        <a class="repo-card" href="https://github.com/parapet-ai/model-bundler-ollama">
+          <h3>model-bundler-ollama</h3>
+          <p>LoRA → GGUF → Ollama. One-command model packaging and deployment.</p>
+        </a>
+        <a class="repo-card" href="https://github.com/parapet-ai/avsafe-portable-python">
+          <h3>avsafe-portable-python</h3>
+          <p>Zero AV false positives. Embedded portable Python. No PyInstaller needed.</p>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>Key Innovation: 7B Training on 6GB VRAM</h2>
+      <div class="innovation">
+        <p>Everyone says you need <span class="metric">10–12 GB VRAM</span> to fine-tune a 7B model. We proved you can do it with <span class="metric">6 GB</span> — on a 6-year-old consumer laptop.</p>
+        <p style="margin-top:1rem"><span class="metric">91.7%</span> tool-calling accuracy on a 3B model. <span class="metric">43</span> models catalogued. <span class="metric">0.008 kg CO2</span> per training run. <span class="metric">70W</span> power cap. <span class="metric">2 minutes</span> to install — zero internet forever after.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Sustainability by Design</h2>
+      <p>Dark mode only — saves 40–60% on OLED. 70W GPU power cap extends hardware lifespan. CO₂ tracked on every training run. Runs on refurbished consumer hardware. No data centers. No cooling overhead. No server farms. Aligned with UN SDGs 4 (Quality Education), 9 (Innovation), 12 (Responsible Consumption), 13 (Climate Action), and 16 (Strong Institutions).</p>
+    </section>
+
     <div class="links">
-      <a href="https://github.com/parapet-ai">GitHub</a>
-      <a href="https://github.com/parapet-ai/parapet-ai.github.io">Docs (coming soon)</a>
+      <a href="https://github.com/parapet-ai">GitHub Organization</a>
+      <a href="https://github.com/parapet-ai/parapet-ai.github.io">Documentation</a>
     </div>
   </main>
-  <footer>parapetai.dev &mdash; Parapet AI</footer>
+  <footer>
+    <p><a href="https://github.com/parapet-ai">github.com/parapet-ai</a> — Parapet AI Edu</p>
+    <p class="ip-footer">
+      © 2026 Andrzej Wojciech Dobosz. All rights reserved.
+      Patent: UPRP P.455821 (pending) · Trademark: UPRP Z.603439 (pending) — PARAPET AI®
+      Dual-licensed: MIT OR Apache 2.0 with Patent Grant
+    </p>
+  </footer>
 </body>
 </html>
